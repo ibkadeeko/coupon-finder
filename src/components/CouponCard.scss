@@ -1,0 +1,40 @@
+.CouponCard {
+	background: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 0.7rem 1rem 1.2rem -0.5rem rgba(0, 0, 0, 0.56);
+	margin: 2rem;
+	padding: 1rem;
+	text-align: center;
+	width: 30rem;
+	transition: ease-in-out 400ms;
+
+	&:hover {
+		transform: scale(1.2);
+	}
+
+	p {
+		font-size: 1.6rem;
+		margin: 0.5rem;
+	}
+
+	&-title {
+		font-size: 2.4rem;
+	}
+
+	&-image {
+		background: #ffffff;
+		border-radius: 0.5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 10rem;
+
+		img {
+		cursor: pointer;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	}
+
+}
+

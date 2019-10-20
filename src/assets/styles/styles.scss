@@ -1,3 +1,29 @@
-h1 {
-  color: aqua;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html, body {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  color: #222;
+  height: 100%;
+  font-size: 62.5%;
+  line-height: 1.6;
+}
+
+div#app {
+  height: 100%;
 }
